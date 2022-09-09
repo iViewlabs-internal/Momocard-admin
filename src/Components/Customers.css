@@ -52,7 +52,7 @@ li>a{
 .details{
     border: 2px solid grey;
     box-shadow:inset;
-    margin: 10px;
+    margin: 100px;
     padding: 30px;
     border-radius: 15px;
 }
@@ -67,4 +67,10 @@ tr{
 }
 table,tr,td,th{
     margin-bottom: 10px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -184px;
+    margin-left: 73px;
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Customers = () => {
   return (
     <>
-      <div class="navigation">
+      {/* <div class="navigation">
         <ul class="nav nav-justified">
           <img src={require('../images/momo.png')} class="rounded admin_img" alt="..."></img>
           <li class="nav-item admin_nav">
@@ -27,13 +27,34 @@ const Customers = () => {
             <a class="nav-link active">ADMIN NAME</a>
           </li>
         </ul>
-      </div>
-      {/* <div class="search_tab">
-<img src={require('../images/customer_icn.png')} alt="..."></img>
-<h3>Customers</h3>
-<input type="text" placeholder='Search'/>
-<img src={require('../images/admin-bg.png')} alt="..."></img>
-</div> */}
+      </div> */}
+      <div className="container d-flex justify-content-between align-items-center">
+          <div className="d-flex align-items-center w-50 header-auth">
+            <img
+              src={require("../images/momo.png")}
+              className="logo-img-main"
+              alt="momo-logo"
+            />
+            <p className="navbar-brand fs-3 fw-light ms-2 mt-3" href="#">
+              MERCHANT
+            </p>
+          </div>
+          <div className="d-flex justify-content-between align-items-center w-50 mt-3">
+            <p className="text-decoration-underline hover-para">OFFERS</p>
+            <p className="hover-para">ADD NEW OFFER</p>
+            <p className="hover-para">BUSINESS</p>
+            <img
+              src={require("../images/admin_profile_img.png")}
+              alt="profile-user"
+             className="img-profile-picture"
+            />
+            <p className="align-self-center">
+              ADEPA SHOES <span className="ps-2">|</span>{" "}
+              <span className="fw-bold"> EN</span>{" "}
+              <span className="ps-2">FR</span>
+            </p>
+          </div>
+        </div>
       <div class="details">
         <table class="table">
 
@@ -174,50 +195,6 @@ const Customers = () => {
           </li>
         </ul>
       </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-  <img src={require('../images/momo.png')} class="rounded" alt="..."></img>
-
-    <div class="" id="navbarNav">
-      <ul class="navbar-nav  navbar-collapse">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">ADMIN</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active one" href="#">DASHBOARD</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active two" href="#">MERCHANTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active three">CUSTOMERS</a>
-        </li>
-        <li class="nav-item">
-        <img src={require('../images/admin_profile_img.png')} class="rounded four" alt="..."></img>
-
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link active five">ADMIN NAME</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> */}
-
     </>
   );
 }
