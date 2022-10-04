@@ -1,0 +1,16 @@
+.bargraph{
+    width: 96%;
+    border-radius: 24px;
+}
+.widthh{
+    width: 38rem;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.details ,.custdts{
+    display: flex;
+}
