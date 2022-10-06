@@ -1,0 +1,57 @@
+.bargraph {
+    width: 98%;
+    border-radius: 24px;
+}
+
+.card {
+    width: 39rem;
+
+}
+
+.maincard {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dashmerchantcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+}
+.dashmerchantcardbtn{
+    position: relative;
+    right: 30px;
+}
+.hr{
+    width: 93%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    left: 23px;
+}
+.custdetails{
+    display: flex;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.linespacing{
+    line-height: 0.5;
+}
+.txtcoll{
+    background-color: rgba(20, 166, 20, 0.838);
+    color: white;
+}
+.dashboardselections{
+    display: flex;
+}
+.select{
+    background-color: rgb(240, 240, 240);
+    font-weight: 200;
+}
+.now{
+    text-decoration: none;
+}

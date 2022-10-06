@@ -1,0 +1,57 @@
+.maindiv{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.cnbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.blwnavbtn{
+    color: black;
+    position: relative;
+    left: -12px;
+}
+.sidebyside{
+    position: relative;
+    left: 12px;
+    margin: 14px;
+}
+.svgimg{
+    width: 25px;
+    margin: 12px;
+}
+.newimg{
+    width: 25px;
+}
+.newword{
+    color: blue;
+}
+.faid{
+    font-weight: 100;
+}
+.updatee{
+    display: flex;
+    color: white;
+    position: relative;
+    left: 10px;
+    margin: 0 0 10px 0;
+    top: -16px;
+}
+.txtcol{
+    color: white;
+}
+.pervinext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginbtn{
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    padding: 11px 59px;
+    margin: 32px;
+    position: relative;
+    left: 45px;
+}

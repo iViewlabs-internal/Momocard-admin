@@ -1,0 +1,40 @@
+
+.div{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+.loginlogo{
+    position: relative;
+    left: 66px;
+    top: -41px;
+    width: 130px;
+}
+
+.loginbtn{
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    padding: 11px 59px;
+    margin: 32px;
+    position: relative;
+    left: 45px;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid rgb(165, 164, 164);
+    width: 286px;
+}
+.fpsw{
+    color: rgba(55, 104, 252, 0.833);
+    font-weight: 500;
+}
+.btmdsign{
+ 
+    width: 170%;
+    position: relative;
+    left: -78px;
+
+}
