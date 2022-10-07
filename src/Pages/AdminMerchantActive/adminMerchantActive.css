@@ -9,7 +9,10 @@ li{
     padding: 10px;
     margin: 10px;
     list-style-type: none;
-
+}
+.admin_text{
+    position: relative;
+    top: -16px;
 }
 .underline{
     border-bottom: 5px solid yellow;

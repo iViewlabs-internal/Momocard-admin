@@ -14,9 +14,9 @@ export const AdminMerchantProfile = () => {
             <div className='navbar'>
                 <ul>
                     <li className='col-1 logo'>
-                        <img src={require("../../images/momo.png")} alt="" srcset="" />
+                        <img src={require("../../images/momo.png")} alt="logo" srcset="" />
                     </li>
-                    <li className='col-3 fs-4 mx-4'>ADMIN</li>
+                <li className='col-3 admin_text fs-4 mx-4'>ADMIN</li>
                     <div className='subnav'>
 
                         <li className='col-2'>
@@ -30,7 +30,7 @@ export const AdminMerchantProfile = () => {
                         </li>
                     </div>
                     <li className='col-1 adminimg'>
-                        <img src={require("../../images/admin_profile_img.png")} alt="" srcset="" />
+                        <img src={require("../../images/admin_profile_img.png")} alt="admin_img" srcset="" />
                     </li>
                     <li className='col-2 adminimg Adn'>ADMIN NAME</li>
                 </ul>
@@ -47,7 +47,7 @@ export const AdminMerchantProfile = () => {
                         </nav>
                         <br />
                         <div class="merchntimg">
-                            <img src={require("../../images/merchant_icn.png")} className="storeimg mb-1 col-2" alt="" />
+                            <img src={require("../../images/merchant_icn.png")} className="storeimg mb-1 col-2" alt="store_img" />
                             <span className='mx-3'>Merchant Profile</span>
                         </div>
                         <br />
@@ -77,7 +77,7 @@ export const AdminMerchantProfile = () => {
                         <div class="card-body mx-3">
                             <blockquote class="blockquote mb-0">
                                 <p>Profile Photo</p>
-                                <img src={require("../../images/profile_pic.png")} class="img1" alt="" />
+                                <img src={require("../../images/profile_pic.png")} class="img1" alt="Merchants_img" />
                                 <p className='faid'>Full Name</p>
                                 <p>Jabe Cooper</p><br />
                                 <p className='faid'>Email Address</p>
@@ -106,7 +106,7 @@ export const AdminMerchantProfile = () => {
                                 <p>Fashion</p>
                             </div>
                             <div>
-                                <p className='my-2'>LOCATION</p>
+                                <p className=' my-2'>LOCATION</p>
                                 <hr />
                                 <p className='faid'>Building Name</p>
                                 <p>Aviation Highway A wing</p><br />
@@ -119,7 +119,7 @@ export const AdminMerchantProfile = () => {
                         <div>
                             <p class="mx-4 my-5">LOCATION ON MAP</p>
                             <div class=" mx-4 ">
-                                <img src={require("../../images/map.png")} className='map' alt="" />
+                                <img src={require("../../images/map.png")} className='map' alt="map" />
 
                             </div>
                         </div>

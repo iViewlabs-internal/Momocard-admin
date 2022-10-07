@@ -11,7 +11,7 @@ export const Home = () => {
     
     <div className='container div'>
 
-    <img src={require("../../images/momo.png")} className="loginlogo" alt="" />
+    <img src={require("../../images/momo.png")} className="loginlogo" alt="logo" />
     <h3 className='mx-4'>ADMIN LOGIN</h3>
     <input type="text" className="input my-4" placeholder='Enter Email ID / Mobile No. ' />
     <br />
@@ -21,7 +21,7 @@ export const Home = () => {
     <br />
     <button className='loginbtn'>Login</button>
     <br />
-    <img src={require("../../images/login-design.png")} className="btmdsign" alt="" />    
+    <img src={require("../../images/login-design.png")} className="btmdsign" alt="design_img" />    
     
     </div>
     </>

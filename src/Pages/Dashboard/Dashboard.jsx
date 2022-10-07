@@ -10,12 +10,13 @@ export const Dashboard = () => {
     return (
         <>
 
-<div className='navbar'>
+            <div className='navbar'>
                 <ul>
                     <li className='col-1 logo'>
-                        <img src={require("../../images/momo.png")} alt="" srcset="" />
+                        <img src={require("../../images/momo.png")} alt="logo" srcset="" />
                     </li>
-                    <li className='col-3 fs-4 mx-4'>ADMIN</li>
+                    <li className='col-3 admin_text fs-4 mx-4'>ADMIN</li>
+
                     <div className='subnav'>
 
                         <li className='col-2'>
@@ -29,7 +30,7 @@ export const Dashboard = () => {
                         </li>
                     </div>
                     <li className='col-1 adminimg'>
-                        <img src={require("../../images/admin_profile_img.png")} alt="" srcset="" />
+                        <img src={require("../../images/admin_profile_img.png")} alt="admin_img" srcset="" />
                     </li>
                     <li className='col-2 adminimg Adn'>ADMIN NAME</li>
                 </ul>
@@ -39,9 +40,9 @@ export const Dashboard = () => {
                 <div className='container'>
 
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item mx-0  active">Home</li>
-                            <li class="breadcrumb-item mx-0" aria-current="page">DASHBOARD</li>
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item mx-0  active">Home</li>
+                            <li className="breadcrumb-item mx-0" aria-current="page">DASHBOARD</li>
                         </ol>
                     </nav>
                     <div className='dashboardselections'>
@@ -60,20 +61,20 @@ export const Dashboard = () => {
                         </div>
                         <div className='mx-1'>
                             <p>Timeline</p>
-                            <select name="" id=""  className='select'>
+                            <select name="" id="" className='select'>
                                 <option value="" className='faid'>Yearly</option>
                                 <option value="" className='faid'>Monthly</option>
                                 <option value="" className='faid'>Daily</option>
                             </select>
                         </div>
                     </div>
-                    <div class="bargraph">
-                        <img src={require("../../images/bargraph.png")} class="w-100" alt="" />
+                    <div className="bargraph">
+                        <img src={require("../../images/bargraph.png")} className="w-100" alt="bagraphn_img" />
                     </div>
                     <div className='maincard my-4'>
 
-                        <div class="card" >
-                            <div class="card-header heading">
+                        <div className="card" >
+                            <div className="card-header heading">
                                 <div>
                                     New Merchants (75)
                                 </div>
@@ -89,7 +90,7 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn'> <button class="txtcoll border-0 rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn'> <button className="txtcoll border-0 rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -102,7 +103,7 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn'> <button class="bg-white rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn'> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -116,7 +117,7 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn'> <button class="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn'> <button className="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -130,7 +131,7 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn'> <button class="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn'> <button className="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -145,7 +146,7 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn'> <button class="bg-white rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn'> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -159,14 +160,14 @@ export const Dashboard = () => {
                                     <p>Adepa Shoes Ghana limited</p>
                                     <p className='faid'>Business</p>
                                     <p>Retail, Fashion, Footwear</p></div>
-                                <div className='dashmerchantcardbtn '> <button class="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
+                                <div className='dashmerchantcardbtn '> <button className="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
                             <hr className='hr' />
 
                         </div>
-                        <div class="card" >
-                            <div class="card-header heading">
+                        <div className="card mx-5   " >
+                            <div className="card-header heading">
                                 <div>
                                     New Customer (25)
                                 </div>
@@ -176,16 +177,16 @@ export const Dashboard = () => {
                             </div>
                             <div className='custdetails  mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust1.png")} alt="" />
+                                    <img src={require("../../images/cust1.png")} alt="customer_img" />
                                 </div>
-                                <div class="my-3 mx-3 linespacing">
+                                <div className="my-3 mx-3 linespacing">
                                     <p className='faid'>Added 2hrs ago </p><p> Jane Cooper</p>
                                 </div>
                             </div>
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust2.png")} alt="" />
+                                    <img src={require("../../images/cust2.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Ronald Hayes</p>
@@ -194,7 +195,7 @@ export const Dashboard = () => {
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust3.png")} alt="" />
+                                    <img src={require("../../images/cust3.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Philip Ross</p>
@@ -212,7 +213,7 @@ export const Dashboard = () => {
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust5.png")} alt="" />
+                                    <img src={require("../../images/cust5.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Richard Wagner</p>
@@ -221,7 +222,7 @@ export const Dashboard = () => {
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust6.png")} alt="" />
+                                    <img src={require("../../images/cust6.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Alex Green</p>
@@ -230,7 +231,7 @@ export const Dashboard = () => {
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust1.png")} alt="" />
+                                    <img src={require("../../images/cust1.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p> Philip Ross</p>
@@ -239,7 +240,7 @@ export const Dashboard = () => {
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust2.png")} alt="" />
+                                    <img src={require("../../images/cust2.png")} alt="customer_img" />
                                 </div>
                                 <div className='my-3 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p> Jane Cooper</p>
@@ -255,7 +256,7 @@ export const Dashboard = () => {
 
                     </div>
                 </div>
-                <div class="Footer">
+                <div className="Footer">
                     Copyright &copy; 2019 Company Name.All Rights Reserved
                 </div>
             </div>
