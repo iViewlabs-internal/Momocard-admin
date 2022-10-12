@@ -4,6 +4,8 @@ import mysvg2 from '../../images/check-circle-fill.svg';
 import mysvgcross from "../../images/x-circle.svg";
 import mysvgstar from "../../images/star.svg";
 import customerprofile from './customerprofile.css';
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
 
 export const Customerprofile = () => {
@@ -34,7 +36,7 @@ export const Customerprofile = () => {
             recipientDOB.value = " ";
             Nationality.innerHTML = recipientNationality.value;
             recipientNationality.value = " ";
-    
+
 
         }
 
@@ -42,7 +44,7 @@ export const Customerprofile = () => {
 
     return (
         <>
-            <div className='navbar'>
+            {/* <div className='navbar'>
                 <ul>
                     <li className='col-1 logo'>
                         <img src={require("../../images/momo.png")} alt="logo" srcset="" />
@@ -66,28 +68,29 @@ export const Customerprofile = () => {
                     </li>
                     <li className='col-2 adminimg Adn'>ADMIN NAME</li>
                 </ul>
-            </div>
+            </div> */}
+            <Navbar />
             <div className='backcolor'>
 
                 <div className='container'>
+                    <div class="linespacing">
+                        <nav aria-label="breadcrumb ">
+                            <ol className="breadcrumb">
+                                <li className="breadcrumb-item active">Home</li>
+                                <li className="breadcrumb-item active">CUSTOMER</li>
+                                <li className="breadcrumb-item " aria-current="page">PROFILE</li>
+                            </ol>
+                        </nav>
 
-                    <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb">
-                            <li className="breadcrumb-item active">Home</li>
-                            <li className="breadcrumb-item active">CUSTOMER</li>
-                            <li className="breadcrumb-item " aria-current="page">PROFILE</li>
-                        </ol>
-                    </nav>
-
-                    <div className='merchant-search-tab'>
-                        <img src={require("../../images/customer.png")} className="storeimg mb-1 col-2" alt="customer_img" />
-                        <p className='col-3 mb-2 '><h3 className='faid'> Customer Profile</h3></p> <br />
-                        {/* <div className="col-1">
+                        <div className='merchant-search-tab'>
+                            <img src={require("../../images/customer.png")} className="storeimg mb-1 col-2" alt="customer_img" />
+                            <p className='col-3 mb-2 mx-2'><h3 className='faid'> Customer Profile</h3></p> <br />
+                            {/* <div className="col-1">
                             <div className="col-1 pb-1"> <button className="rounded-pill bg-dark update"> Update</button></div>
                             <div className="col-1 pb-1"> <button className="rounded-pill bg-dark update"> Update</button></div>
                             
                         </div> */}
-
+                        </div>
                     </div>
                     <div className='cnbtn'>
                         <h3>Jane Cooper</h3>
@@ -109,7 +112,7 @@ export const Customerprofile = () => {
 
                             <div className='sidebyside'>
                                 <div>
-                                    <p>Profile Photo</p>
+                                    <p className='mx-5'>Profile Photo</p>
                                     <img src={require("../../images/cust_profile_img.png")} alt="Profile_photo" srcset="" />
                                 </div>
                             </div>
@@ -264,10 +267,10 @@ export const Customerprofile = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="Footer">
+                <Footer />
+                {/* <div className="Footer">
                     Copyright &copy; 2019 Company Name.All Rights Reserved
-                </div>
+                </div> */}
             </div>
 
         </>

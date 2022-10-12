@@ -4,13 +4,15 @@ import mysvg from '../../images/check-circle.svg';
 import mysvg2 from '../../images/check-circle-fill.svg';
 import mysvgcross from "../../images/x-circle.svg";
 import mysvgstar from "../../images/star.svg";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
 
 export const Dashboard = () => {
     return (
         <>
 
-            <div className='navbar'>
+            {/* <div className='navbar'>
                 <ul>
                     <li className='col-1 logo'>
                         <img src={require("../../images/momo.png")} alt="logo" srcset="" />
@@ -20,7 +22,7 @@ export const Dashboard = () => {
                     <div className='subnav'>
 
                         <li className='col-2'>
-                            <Link to="/Dashboard">DASHBOARD</Link>
+                            <Link to="/Dashboard" className='present'>DASHBOARD</Link>
                         </li>
                         <li className='mx-2 col-2 '>
                             <Link to="/AdminMerchantAll" className='now'>MERCHANTS</Link>
@@ -34,7 +36,8 @@ export const Dashboard = () => {
                     </li>
                     <li className='col-2 adminimg Adn'>ADMIN NAME</li>
                 </ul>
-            </div>
+            </div> */}
+<Navbar/>
             <div className='backcolor'>
 
                 <div className='container'>
@@ -45,9 +48,9 @@ export const Dashboard = () => {
                             <li className="breadcrumb-item mx-0" aria-current="page">DASHBOARD</li>
                         </ol>
                     </nav>
-                    <div className='dashboardselections'>
-                        <div className='linespacing'>
-                            <p className='col-3 mb-2 '><h3 className='faid'>Dashboard</h3></p> <br />
+                    <div className='dashboardselections my-3'>
+                        <div className='linespacingg'>
+                            <p className='col-3 mb-2 '><h3 className='faid my-2'>Dashboard</h3></p> <br />
                             <p className='faid'>No of Customers Added Each Month</p>
                         </div>
                         <div className='mx-5'>
@@ -84,7 +87,7 @@ export const Dashboard = () => {
                             </div>
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/profile_pic.png")}
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -97,7 +100,7 @@ export const Dashboard = () => {
 
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/pure-joy.png")}
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 mx-2 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -111,7 +114,7 @@ export const Dashboard = () => {
 
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/hydraform-estate.png")}
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 mx-2 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -125,7 +128,7 @@ export const Dashboard = () => {
 
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/belle-mode.png")}
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 mx-2 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -140,7 +143,7 @@ export const Dashboard = () => {
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/pure-joy.png")}
 
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 mx-2 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -154,7 +157,7 @@ export const Dashboard = () => {
 
                             <div className="dashmerchantcard ">
                                 <div className='dashMerchantimg  mx-3 col-2'><img src={require("../../images/profile_pic.png")}
-                                    className="rounded-circle boxshadow" alt="" /></div>
+                                    className="rounded-circle merchant-imgg boxshadow" alt="" /></div>
                                 <div className='dashmerchantdetails my-3 mx-2 col-5'>
                                     <p className='faid'>Added 2hrs ago</p>
                                     <p>Adepa Shoes Ghana limited</p>
@@ -163,7 +166,6 @@ export const Dashboard = () => {
                                 <div className='dashmerchantcardbtn '> <button className="bg-dark border-0 txtcol rounded-pill px-3 py-2 mx-2"> Deactivated</button>
                                 </div>
                             </div>
-                            <hr className='hr' />
 
                         </div>
                         <div className="card mx-5   " >
@@ -175,12 +177,12 @@ export const Dashboard = () => {
                                     View All
                                 </div>
                             </div>
-                            <div className='custdetails  mx-3'>
+                            <div className='custdetails my-3 mx-3'>
                                 <div>
                                     <img src={require("../../images/cust1.png")} alt="customer_img" />
                                 </div>
-                                <div className="my-3 mx-3 linespacing">
-                                    <p className='faid'>Added 2hrs ago </p><p> Jane Cooper</p>
+                                <div className="my-4 mx-3 linespacing">
+                                    <p className='faid '>Added 2hrs ago </p><p> Jane Cooper</p>
                                 </div>
                             </div>
                             <hr className='hr' />
@@ -188,7 +190,7 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust2.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Ronald Hayes</p>
                                 </div>
                             </div>
@@ -197,16 +199,16 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust3.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Philip Ross</p>
                                 </div>
                             </div>
                             <hr className='hr' />
                             <div className='custdetails mx-3'>
                                 <div>
-                                    <img src={require("../../images/cust4.png")} alt="" />
+                                    <img src={require("../../images/cust4.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Patricia Roberts</p>
                                 </div>
                             </div>
@@ -215,7 +217,7 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust5.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Richard Wagner</p>
                                 </div>
                             </div>
@@ -224,7 +226,7 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust6.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p>Alex Green</p>
                                 </div>
                             </div>
@@ -233,7 +235,7 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust1.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p> Philip Ross</p>
                                 </div>
                             </div>
@@ -242,7 +244,7 @@ export const Dashboard = () => {
                                 <div>
                                     <img src={require("../../images/cust2.png")} alt="customer_img" />
                                 </div>
-                                <div className='my-3 mx-3 linespacing'>
+                                <div className='my-4 mx-3 linespacing'>
                                     <p className='faid'>Added 2hrs ago </p><p> Jane Cooper</p>
                                 </div>
                             </div>
@@ -256,11 +258,12 @@ export const Dashboard = () => {
 
                     </div>
                 </div>
-                <div className="Footer">
+                <Footer/>
+                {/* <div className="Footer">
                     Copyright &copy; 2019 Company Name.All Rights Reserved
-                </div>
-            </div>
+                </div> */}
 
+                </div>
 
 
 

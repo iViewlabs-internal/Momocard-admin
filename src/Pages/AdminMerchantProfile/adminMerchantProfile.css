@@ -27,6 +27,16 @@
 hr{
     width: 236%;
 }
+.linespacing{
+    line-height: 5.5px;
+    margin-top: 38px!important;
+}
+.linespacingg{
+    line-height: 1PX;
+}
+.black{
+    color: black!important;
+}
 .offers{    position: relative;
     left: 39px;
     top: 11px;

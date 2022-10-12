@@ -54,10 +54,11 @@ ul {
 .nav{
     z-index: -1;
 }
-.adminimg {
+.adminimgg {
     position: relative;
-    top: -32px;
-    left: 33%;
+    top: -45px;
+    left: 408%;
+    width: 111px;
 
 }
 .textcolor{
@@ -78,18 +79,22 @@ ul {
     border-radius: 83px;
 }
 .subnav {
-     list-style-type: none;
+    list-style-type: none;
     position: relative;
     align-items: center;
-    left: 275px;
+    left: 270px;
     width: 460px;
-    top: -44px;
+    top: -50px;
     display: flex;
     justify-content: space-around;
 }
 .Adn{
     position: relative;
     top: -9px;
+    left: 277px;
+}
+.Adn:hover{
+    cursor: pointer;
 }
 .update{
     color: white;
@@ -227,23 +232,24 @@ select{
 }
 .new{
     position: relative;
-    top: 24px;
+    top: 13px;
     left: 16px;
+    height: 74px!important;
 }
-img{
-    width: 88px;
+.underlinee{
+    border:none;
 }
-hr{
+/* hr{
     width: 97%;
-}
-.rounder{
+} */
+/* .rounder{
     border-radius: 13px;
-}
-.search{
+} */
+/* .search{
     width: 38%;
     position: relative;
     left: 139px;
     bottom: 11px;
     height: 31px;
     top: 6px;
-}
+} */
