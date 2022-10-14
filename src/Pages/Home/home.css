@@ -3,7 +3,7 @@
     width: 300px;
     margin: auto;
     position: relative;
-    top: 80px;
+    top: 51px;
 }
 .loginlogo{
     position: relative;
@@ -36,5 +36,6 @@
     width: 170%;
     position: relative;
     left: -78px;
+    top: 30px;
 
 }

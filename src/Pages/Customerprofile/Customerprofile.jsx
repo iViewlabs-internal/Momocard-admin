@@ -44,35 +44,10 @@ export const Customerprofile = () => {
 
     return (
         <>
-            {/* <div className='navbar'>
-                <ul>
-                    <li className='col-1 logo'>
-                        <img src={require("../../images/momo.png")} alt="logo" srcset="" />
-                    </li>
-                    <li className='col-3 admin_text fs-4 mx-4'>ADMIN</li>
-
-                    <div className='subnav'>
-
-                        <li className='col-2'>
-                            <Link to="/Dashboard">DASHBOARD</Link>
-                        </li>
-                        <li className='mx-2 col-2'>
-                            <Link to="/AdminMerchantAll">MERCHANTS</Link>
-                        </li>
-                        <li className='col-1  '>
-                            <Link to="/AdminCustomerAll">CUSTOMERS</Link>
-                        </li>
-                    </div>
-                    <li className='col-1 adminimg'>
-                        <img src={require("../../images/admin_profile_img.png")} alt="admin_img" srcset="" />
-                    </li>
-                    <li className='col-2 adminimg Adn'>ADMIN NAME</li>
-                </ul>
-            </div> */}
-            <Navbar />
-            <div className='backcolor'>
-
-                <div className='container'>
+           <Navbar/>
+            <div class="background">
+           
+                <div class="container">
                     <div class="linespacing">
                         <nav aria-label="breadcrumb ">
                             <ol className="breadcrumb">
@@ -85,11 +60,7 @@ export const Customerprofile = () => {
                         <div className='merchant-search-tab'>
                             <img src={require("../../images/customer.png")} className="storeimg mb-1 col-2" alt="customer_img" />
                             <p className='col-3 mb-2 mx-2'><h3 className='faid'> Customer Profile</h3></p> <br />
-                            {/* <div className="col-1">
-                            <div className="col-1 pb-1"> <button className="rounded-pill bg-dark update"> Update</button></div>
-                            <div className="col-1 pb-1"> <button className="rounded-pill bg-dark update"> Update</button></div>
-                            
-                        </div> */}
+                           
                         </div>
                     </div>
                     <div className='cnbtn'>
