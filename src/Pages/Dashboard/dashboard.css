@@ -39,9 +39,7 @@
     display: flex;
     justify-content: space-between;
 }
-.linespacing{
-    line-height: 0.5;
-}
+
 .txtcoll{
     background-color: rgba(20, 166, 20, 0.838);
     color: white;
@@ -55,4 +53,10 @@
 }
 .now{
     text-decoration: none;
+    color: black;
+}
+.merchant-imgg{
+    width: 87px;
+    position: relative;
+    left: 19px;
 }

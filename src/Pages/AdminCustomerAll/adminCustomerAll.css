@@ -237,25 +237,24 @@ select{
     position: relative;
     left: 12px;
 }
-.new{
+/* .new{
     position: relative;
     top: 24px;
     left: 16px;
-}
-img{
-    width: 88px;
-}
+    height: 60px !important;
+} */
+/* 
 hr{
     width: 97%;
 }
 .rounder{
     border-radius: 13px;
-}
-.search{
+} */
+/* .search{
     width: 38%;
     position: relative;
     left: 139px;
     bottom: 11px;
     height: 31px;
     top: 6px;
-}
+} */

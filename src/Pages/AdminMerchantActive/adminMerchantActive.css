@@ -5,6 +5,12 @@
     display: flex; 
     margin-left: 22px;
 }
+.merchant-img{
+    width: 65px!important;
+    position: relative;
+    bottom: 5px;
+    left: 8px;
+}
 li{
     padding: 10px;
     margin: 10px;
@@ -224,25 +230,26 @@ select{
     position: relative;
     left: 12px;
 }
-.new{
+.svg-alignn {
+    top: -25px!important;
+}
+/* .new{
     position: relative;
     top: 24px;
     left: 16px;
-}
-img{
-    width: 88px;
-}
-hr{
+} */
+
+/* hr{
     width: 97%;
-}
-.rounder{
+} */
+/* .rounder{
     border-radius: 13px;
-}
-.search{
+} */
+/* .search{
     width: 38%;
     position: relative;
     left: 139px;
     bottom: 11px;
     height: 31px;
     top: 6px;
-}
+} */

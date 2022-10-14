@@ -224,14 +224,12 @@ select{
     position: relative;
     left: 12px;
 }
-.neww{
+/* .neww{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-img{
-    width: 88px;
-}
+} */
+
 hr{
     width: 97%;
 }
