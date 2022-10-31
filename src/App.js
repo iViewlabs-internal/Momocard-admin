@@ -13,6 +13,8 @@ import {AdminMerchantProfile} from "./Pages/AdminMerchantProfile/AdminMerchantPr
 import {AdminMerchantActive} from "./Pages/AdminMerchantActive/AdminMerchantActive";
 import {AdminMerchantsDeactivated} from "./Pages/AdminMerchantDeactivated/AdminMerchantsDeactivated";
 import {AdminMerchantAll} from "./Pages/AdminMerchantAll/AdminMerchantAll";
+import {Recreationpages} from "./Pages/RecreationPages/Recreationpages";
+import  Thead from "./components/Thead";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 function App() {
@@ -23,6 +25,7 @@ function App() {
 
 <Routes>
   <Route path='/' element={<Home/>}></Route>
+  <Route path="Recreationpages" element={<Recreationpages/>}></Route>
   <Route path='/AdminCustomerActive' element={<AdminCustomerActive/>}></Route>
   <Route path='/Customerprofile' element={<Customerprofile/>}></Route>
   <Route path='/Dashboard' element={<Dashboard/>}></Route>

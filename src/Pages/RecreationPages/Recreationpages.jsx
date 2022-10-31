@@ -1,38 +1,30 @@
 import React from 'react'
-import adminMerchantAll from './adminMerchantAll.css'
+import recreationpages from './recreationpages.css'
 import mysvg from '../../images/check-circle.svg';
 import mysvg2 from '../../images/check-circle-fill.svg';
 import mysvgcross from "../../images/x-circle.svg";
 import mysvgstar from "../../images/star.svg";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import { Thead } from '../../components/Thead';
 import { Navigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-export const AdminMerchantAll = () => {
-    function clickme(e) {
-        const first = document.getElementById("first");
-        first.innerHTML = "Activate.";
-        first.style.color = 'green';
-        const replace = document.getElementById("replace");
-        // replace.style.background({mysvgcross})
-        e.target.setAttribute({ replace }, "../../images/x-circle.svg");
-        <Navigate to="../AdminMerchantActive/AdminMerchantActive" replace={true} />
-
-    }
+export const Recreationpages = () => {
     return (
         <>
-        <Navbar/>
-            <div className='background'>
+
+            
+                
+                <Navbar />
+                <div className='background'>
                 <div className="container">
-                    <nav aria-label="breadcrumb">
+                <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item active">Home</li>
                             <li className="breadcrumb-item active">MERCHANTS</li>
                             <li className="breadcrumb-item " aria-current="page">ALL</li>
                         </ol>
                     </nav>
-
+                    
                     <div className='merchant-search-tab mb-3'>
                         <img src={require("../../images/merchant_icn.png")} className="storeimg mb-1 mx-3 col-2" alt="store_img" />
                         <p className='col-3 mb-2'><h3 className=' fw-light'>MERCHANTS</h3></p>
@@ -41,22 +33,22 @@ export const AdminMerchantAll = () => {
                     <div className="row mx-3 py-3 table-border pb-1">
                         <div className="col-1 data">
                             <p>
-                                <Link to="/AdminMerchantAll" className='present mx-4 ' >All(25)</Link>
+                                <Link to="/AdminCustomerAll" className='now ' >All(25)</Link>
                             </p>
                         </div>
                         <div className="col-1  data">
                             <p>
-                                <Link to="/AdminMerchantNew" className='now' >New(25)</Link>
+                                <Link to="/AdminCustomerNew" className='now' >New(25)</Link>
                             </p>
                         </div>
                         <div className="col-1 px-2 data">
                             <p>
-                                <Link to="/AdminMerchantActive" className='now'>Activated(25)</Link>
+                                <Link to="/AdminCustomerActive" className='present'>Activated(25)</Link>
                             </p>
                         </div>
                         <div className="col-6 px-5  data">
                             <p>
-                                <Link to="/AdminMerchantDeactivated" className='now' >Deactivated(25)</Link>
+                                <Link to="/AdminCustomerDeactivated" className='now' >Deactivated(25)</Link>
                             </p>
                         </div>
                         <div className="col-1 end data">
@@ -78,7 +70,19 @@ export const AdminMerchantAll = () => {
 
                         <div class="table-responsive-sm ">
                             <table className="table">
-                                <Thead/>
+                                <thead class="background menu">
+                                    <tr >
+                                        <th scope="col">PROFILE</th>
+                                        <th scope="col"> BUSINESS NAME</th>
+                                        <th scope="col">MOBILE PROVIDER </th>
+                                        <th scope="col">ADDED ON</th>
+                                        <th scope="col">VERIFICATION</th>
+                                        <th scope="col">STATUS</th>
+                                        <th scope="col">VIEW</th>
+                                        <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACTION</th>
+
+                                    </tr>
+                                </thead>
                                 <tbody>
 
                                     <tr className="">
@@ -87,9 +91,9 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col active-text"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
-                                        <td className="col "> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
+                                        <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
                                     <tr className="">
                                         <td className="col"><img src={require("../../images/grill-king.png")} className="rounded-circle boxshadow merchant-img " alt="store_logo" /></td>
@@ -97,7 +101,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgcross} className="icon2 mx-1" /><span className='deactivated-color'>Deactivated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -107,7 +111,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgstar} className="icon2 mx-1 align" /><span>New</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -117,7 +121,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col active-text"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -127,7 +131,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgcross} className="icon2 mx-1" /><span className='deactivated-color'>Deactivated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -137,8 +141,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgstar} className="icon2 mx-1 align" /><span>New</span></td>
-
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -148,7 +151,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col active-text"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -158,7 +161,7 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgcross} className="icon2 mx-1" /><span className='deactivated-color'>Deactivated</span></td>
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
@@ -168,12 +171,11 @@ export const AdminMerchantAll = () => {
                                         <td className="col">Retail, Fashion, Footwear</td>
                                         <td className="col">Added 2hrs ago</td>
                                         <td className="col"><img src={mysvg2} className="icon2 mx-2" /><span>Both</span></td>
-                                        <td className="col"><img src={mysvgstar} className="icon2 mx-1 align" /><span>New</span></td>
-
+                                        <td className="col"><img src={mysvg} className="icon2 mx-1" /><span>Activated</span></td>
                                         <td className="col">View</td>
                                         <td className="col"> <button className="bg-white rounded-pill px-3 py-2 mx-2"> Activated</button></td>
                                     </tr>
-
+                                    
                                 </tbody>
                             </table>
                         </div>

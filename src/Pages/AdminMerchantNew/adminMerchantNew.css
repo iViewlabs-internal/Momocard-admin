@@ -15,10 +15,7 @@ li{
     border-bottom: 5px solid yellow;
     width: 96px;
 }
-.navbar{
-    background-color: white;
-    height: 60px;
-}
+
 .merchant-search-tab{
     display: flex;
     width: 100%;
@@ -90,65 +87,32 @@ ul {
 .update{
     color: white;
     width: 90px;
-    padding: 3px;
+    padding: 2px;
 }
 select{
     border: none;
     border-bottom: 2px solid black;
 }
-/* .subnav>li {
-    display: inline;
-} */
+
 
 .custimg_name {
     display: flex;
     position: relative;
     top: 23px;
 }
-/* .breadcrumb>li{
-    position: relative;
-    top: 14px;
-} */
-/* .custimg_name>h3 {
-    margin: -3px 16px 12px 12px
-} */
+
 
 .storeimg {
     width: 30px;
     height: 30px;
 }
 
-/* .profile {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    bottom: 30px;
-}
-.profile>h3{
-    position: relative;
-    top: 38px;
-} */
 
 .details {
     background-color: white;
     border-radius: 23px;
 }
-/* .part{
-    left: 61px;
-    top: 30px;
-    margin: 12px;
-    position: relative;
-} */
-/* .part>p{
-    margin:20px;
-} */
-/* .prtext{
-    position: relative;
-    top: -18px;
-    padding: 9px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: rgb(247, 247, 247);
-} */
+
 .design{
     position: relative;
     left: 33%;
@@ -161,7 +125,7 @@ select{
     position: relative;
     background-color: white;
     border-radius: 0px 0px 12px 12px;
-    /* border-radius: 6px; */
+    
     left: 86px;
     height: 90%;
     top: -32px;
@@ -226,26 +190,7 @@ select{
     position: relative;
     left: 12px;
 }
-/* .new{
-    position: relative;
-    top: 24px;
-    left: 16px;
-} */
 
-/* hr{
-    width: 97%;
-}
-.rounder{
-    border-radius: 13px;
-} */
-/* .search{
-    width: 38%;
-    position: relative;
-    left: 139px;
-    bottom: 11px;
-    height: 31px;
-    top: 6px;
-} */
 select{
     background-color: white;
     font-weight: 200;

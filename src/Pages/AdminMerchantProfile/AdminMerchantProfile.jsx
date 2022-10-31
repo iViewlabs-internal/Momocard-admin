@@ -11,16 +11,16 @@ import { Link } from "react-router-dom";
 export const AdminMerchantProfile = () => {
     return (
         <>
-            <div class="bgcolor  bgcol">
-           
             <Navbar/>
+            <div class="background">
+           
                 <div class="container">
                     <div class="linespacingg">
 
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                <li class="breadcrumb-item "><a href="#" className='now'>Home</a></li>
+                                <li class="breadcrumb-item "><a href="#" className='now'>Library</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Data</li>
                             </ol>
                         </nav>
@@ -32,7 +32,7 @@ export const AdminMerchantProfile = () => {
                         <br />
                     </div>
 
-                        <div class="accounthld">
+                        <div class="accounthld  my-3">
                             <div>
                                 <h4 className='mx-2 my-2 faid'>Adepa shoes Ghana limited</h4>
                             </div>
@@ -41,9 +41,10 @@ export const AdminMerchantProfile = () => {
                                     <p className='my-3 mx-3'> Added 2hrs ago </p>
                                 </div>
                                 <div>
-                                    <div className='twobtn'>
-                                        <div> <button class="rounded-pill bg-white btnbtn mb-3  my-2 black update blwnavbtn"> Activate</button></div>
-                                        <div> <button className="rounded-pill bg-dark txtcol  btnbtn my-2 update"> Update</button></div>
+                                    <div className='twobtn '>
+                                    <div > <button className="rounded-pill bg-white mx-2 p-2 blwnavbtn">  Activate</button></div>
+                                    <div> <button className="rounded-pill bg-dark txtcol  p-2" data-bs-toggle="modal" data-bs-whatever="@mdo" data-bs-dismiss="modal" data-bs-target="#exampleModal"> Update</button></div>
+
                                     </div>
                                 </div>
                             </div>
@@ -108,9 +109,9 @@ export const AdminMerchantProfile = () => {
                     <div>
 
                         <div className='twobtn'>
+                        <div > <button className="rounded-pill bg-white mx-2 p-2 blwnavbtn">  Activate</button></div>
+                                    <div> <button className="rounded-pill bg-dark txtcol  p-2" data-bs-toggle="modal" data-bs-whatever="@mdo" data-bs-dismiss="modal" data-bs-target="#exampleModal"> Update</button></div>
 
-                            <div> <button class="rounded-pill bg-white btnbtn mx-2 mb-3 my-2 black update blwnavbtn"> Activate</button></div>
-                            <div> <button class="rounded-pill bg-dark txtcol btnbtn my-2 update"> Update</button></div>
                         </div>
                     </div>
                     <div class="card my-4 ">

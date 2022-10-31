@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48a76f44.css",
+    "main.js": "/static/js/main.75ae6671.js",
+    "static/media/map.png": "/static/media/map.96eea0ae88f1dae2e07f.png",
+    "static/media/activate_offer_shoe.png": "/static/media/activate_offer_shoe.6f9b0dd10ae7e640ef9c.png",
+    "static/media/offer2_img.png": "/static/media/offer2_img.46e3a66dd17bf5f333ae.png",
+    "static/media/cust_profile_img.png": "/static/media/cust_profile_img.14fde596b42657390748.png",
+    "static/media/login-design.png": "/static/media/login-design.9899d68f47ce36ee0a83.png",
+    "static/media/profile_pic.png": "/static/media/profile_pic.a7a20a4140edcc66f770.png",
+    "static/media/momo.png": "/static/media/momo.5af05c6f90cf5267c76d.png",
+    "static/media/bargraph.png": "/static/media/bargraph.9f61772a78d433da8d32.png",
+    "static/media/admin_profile_img.png": "/static/media/admin_profile_img.55a95572c37f01d00321.png",
+    "static/media/cust2.png": "/static/media/cust2.55a95572c37f01d00321.png",
+    "static/media/cust3.png": "/static/media/cust3.e7fea0084404b6c88886.png",
+    "static/media/ghana-shoes.png": "/static/media/ghana-shoes.9a0bf576494bc1f10218.png",
+    "static/media/cust4.png": "/static/media/cust4.24d1f256cb55eb80f9c2.png",
+    "static/media/cust1.png": "/static/media/cust1.c0f55d3cdfabf2345fc5.png",
+    "static/media/cust6.png": "/static/media/cust6.37f5ad23f21e46f5b67c.png",
+    "static/media/cust5.png": "/static/media/cust5.a7be2187f196a237752c.png",
+    "static/media/momo_big_old.png": "/static/media/momo_big_old.065cedbfb71eb0720882.png",
+    "index.html": "/index.html",
+    "static/media/star.svg": "/static/media/star.b8a681ce500b33ab3de40e39503ddc9c.svg",
+    "static/media/x-circle.svg": "/static/media/x-circle.b4f9f10e6d7424c26d66bb7c2cb3da05.svg",
+    "static/media/check-circle.svg": "/static/media/check-circle.f4ab69eb41dd79e7db4b162dd6c8c754.svg",
+    "static/media/check-circle-fill.svg": "/static/media/check-circle-fill.7eee3172d07a95e6a737955af3a48ab2.svg",
+    "main.48a76f44.css.map": "/static/css/main.48a76f44.css.map",
+    "main.75ae6671.js.map": "/static/js/main.75ae6671.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48a76f44.css",
+    "static/js/main.75ae6671.js"
+  ]
+}
